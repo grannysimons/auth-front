@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "635f8f570557924e30ccc25c"
+  },
+  "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-lists/ironbnb-house.43.png",
+  "pricePerDay": 195,
+  "title": "3 Bedroom House",
+  "createdAt": "2022-10-31T03:00:07.943Z",
+  "updatedAt": "2022-10-31T03:00:07.943Z",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635f8f570557924e30ccc25d"
+  },
+  "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-lists/ironbnb-house.50.png",
+  "pricePerDay": 90,
+  "title": "Amazing Studio",
+  "createdAt": "2022-10-31T03:00:07.943Z",
+  "updatedAt": "2022-10-31T03:00:07.943Z",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635f8f570557924e30ccc25e"
+  },
+  "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-lists/ironbnb-house.58.png",
+  "pricePerDay": 90,
+  "title": "Spacious Apartment",
+  "createdAt": "2022-10-31T03:00:07.943Z",
+  "updatedAt": "2022-10-31T03:00:07.943Z",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635f8f570557924e30ccc25f"
+  },
+  "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-lists/ironbnb-house.43.png",
+  "pricePerDay": 195,
+  "title": "High-end Comfy Apartment",
+  "createdAt": "2022-10-31T03:00:07.943Z",
+  "updatedAt": "2022-10-31T03:00:07.943Z",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635f8f570557924e30ccc260"
+  },
+  "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-lists/ironbnb-house.58.png",
+  "pricePerDay": 195,
+  "title": "Luxurious Flat",
+  "createdAt": "2022-10-31T03:00:07.943Z",
+  "updatedAt": "2022-10-31T03:00:07.943Z",
+  "__v": 0
+}]
