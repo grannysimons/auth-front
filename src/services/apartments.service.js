@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const apiUrl = "https://apartmentsback.herokuapp.com/api/apartments";
+// const apiUrl = "https://apartmentsback.herokuapp.com/api/apartments";
+const apiUrl = "http://localhost:5005/api/apartments";
 
 class ApartmentsService {
     getApartments(){
