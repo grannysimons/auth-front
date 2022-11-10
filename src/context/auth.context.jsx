@@ -6,6 +6,9 @@ const BACK_URL = process.env.API_URL || "http://localhost:5005/api/auth";
 const authContext = createContext();
 
 const AuthProviderWrapper = (props) => {
+
+    console.log("BACK_URL ", BACK_URL);
+    console.log("process.env.API_URL ", process.env.API_URL);
     
     const [user, setUser] = useState({});
     const [isLoggedIn, setIsLoggedIn] = useState(false); 
