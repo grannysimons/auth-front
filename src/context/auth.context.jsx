@@ -1,14 +1,14 @@
 import { createContext, useState } from 'react';
 import axios from 'axios';
 import { useEffect } from 'react';
-const BACK_URL = process.env.API_URL || "http://localhost:5005/api/auth";
+const BACK_URL = process.env.REACT_APP_REACT_APP_API_URL || "http://localhost:5005/api/auth";
 
 const authContext = createContext();
 
 const AuthProviderWrapper = (props) => {
 
     console.log("BACK_URL ", BACK_URL);
-    console.log("process.env.API_URL ", process.env.API_URL);
+    console.log("process.env.REACT_APP_API_URL ", process.env.REACT_APP_API_URL);
     
     const [user, setUser] = useState({});
     const [isLoggedIn, setIsLoggedIn] = useState(false); 

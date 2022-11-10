@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { authContext } from "../context/auth.context";
 
 
-const BACK_URL = process.env.API_URL || "http://localhost:5005/api/auth";
+const BACK_URL = process.env.REACT_APP_API_URL || "http://localhost:5005/api/auth";
 
 function LoginPage() {
     const [username, setUsername] = useState("");

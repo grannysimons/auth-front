@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const apiUrl = "https://apartmentsback.herokuapp.com/api/apartments";
-const apiUrl = process.env.API_URL || "http://localhost:5005/api/apartments";
+const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:5005/api/apartments";
 
 class ApartmentsService {
     getApartments(){

@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const BACK_URL = process.env.API_URL || "http://localhost:5005/api/auth";
+const BACK_URL = process.env.REACT_APP_API_URL || "http://localhost:5005/api/auth";
 
 function SignupPage() {
     const [username, setUsername] = useState("");
