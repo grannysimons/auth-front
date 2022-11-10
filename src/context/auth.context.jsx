@@ -1,7 +1,7 @@
 import { createContext, useState } from 'react';
 import axios from 'axios';
 import { useEffect } from 'react';
-const BACK_URL = "http://localhost:5005/api/auth";
+const BACK_URL = process.env.API_URL || "http://localhost:5005/api/auth";
 
 const authContext = createContext();
 
